@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HG3form</title>
+    <link rel="stylesheet" type="text/css" href="hgform.css">
+</head>
+
+<body>
+    <header> header </header>
+    <div class="container">
+        <article>
+          <!--  <div class="wrapper"> -->
+                <div class="a">
+                    <div class="b">
+                    <label for="name"> NAME </label> 
+                    <input type="text" name="name" size="20">
+                    </div>
+                    <div>
+                    <label for="phone"> PHONE </label> 
+                    <input type="number" name="phone" size="20">
+                    </div>
+                    <div>
+                    <label for="email"> EMAIL </label> 
+                    <input type="text" name="email" size="20">
+                    </div>
+                    <div>
+                    <label for="datetime"> Pickup Date/Time </label>
+                    <input type="datetime-local" id="datetime" name="datetime">
+                    </div>
+                    <div>
+                    <label for="pickup"> Pickup Place </label>
+                    <select name="pickup" id="pickup">
+                        <option value=""> Select One </option>
+                        <option value="qc"> QC</option>
+                        <option value="manila"> Manila </option>
+                        <option value="taguig"> Taguig </option>
+                    </select>
+                    <div>
+                    <label for="drop"> Dropoff Place </label>
+                    <input type="text" name="drop" size="20">
+                    </div>
+                    </div>
+                </div>
+            
+                <div class="q">
+                    Which vehicle do you require?<br>
+                    <br>
+                    <input type="radio" name="vehicle" id="van">
+                    <label for="van"> Van </label><br>
+                    <input type="radio" name="vehicle" id="jeepney">
+                    <label for="jeepney"> Jeepney </label>
+                    <br>
+                    <input type="radio" name="vehicle" id="tricycle">
+                    <label for="tricycle"> Tricycle </label>
+                    <br>
+                    <br>
+                    Extras
+                    <br>
+                    <input type="checkbox" name="extra" value="babyseat">
+                    <label for="babyseat"> Baby Seat </label>
+                    <br>
+                    <input type="checkbox" name="extra" value="wheelchair">
+                    <label for="wheelchair"> Wheelchair Access </label>
+                    <br>
+                    <input type="checkbox" name="extra" value="stock">
+                    <label for="stock"> Stock Tip </label>
+                </div>
+         <!--   </div> -->
+            <button>Submit Booking </button>
+            
+        </article>
+        <aside> aside </aside>
+        <nav> nav </nav>
+    </div>
+    <footer> footer </footer>
+</body>
+
+</html>
+
+

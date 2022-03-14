@@ -1,0 +1,117 @@
+/* container of logo and search */
+body {
+    background-image: url('main.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+}
+header {
+    display: flex;
+    padding: 10px;
+    height: 10vh;
+    border: 3px solid rgba(255,255,255,0.3);
+    opacity: 0.9;
+}
+.logo {
+    display:table-caption;
+}
+/* menu bar */
+.menu {
+    padding: 10px 650px 10px 20px;
+}
+.menu ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* search box */
+.search {
+    background-color: white;
+    opacity: 0.5;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+/* box inside search box */
+input {
+    flex: 1;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+}
+p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.upper .bar {
+    justify-content:left
+}
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+
+}
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 8;
+    bottom: 50%;
+    font-size: 50px;
+    font-family: cursive;  
+}
+
+footer {
+   position:absolute;
+   bottom: 0;
+   right:0;
+   background-color: navajowhite;
+   text-align: center;
+   padding: 5px;
+
+   
+}
+footer ul{
+    display: flex;
+    margin: 0;
+    padding: 5px ;
+    font-size: 10px;
+
+}
+li  {
+    padding: 0;
+}
+
+footer a:hover {
+    font-size: 10px;
+    background-color: skyblue;
+    border-radius: 0;
+    color: white;
+
+}
+

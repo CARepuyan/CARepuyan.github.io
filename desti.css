@@ -1,0 +1,56 @@
+body {
+    background-image: url('ban.JPG');
+    background-size: cover;
+    height: 100px;
+    padding: 10px;
+    background-position: center center;
+
+    
+    background-repeat: no-repeat;
+
+}
+a:hover {
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.logo {
+    text-align: center;
+    /*background-color: rgba(255, 255, 255, 0.3);
+    width: 80px;
+    position: center;*/
+}
+/*
+p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    right:0;
+    background-color: navajowhite;
+    text-align: center;
+    padding: 5px;
+}
+footer ul{
+    display: flex;
+    margin: 0;
+    padding: 5px ;
+    font-size: 10px;
+}
+li  {
+    padding: 0;}
+ 
+footer a:hover {
+    font-size: 10px;
+    background-color: skyblue;
+    border-radius: 0;
+}
+footer a {
+    color: black;
+}
+*/
