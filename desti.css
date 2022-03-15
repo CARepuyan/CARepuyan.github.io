@@ -1,56 +1,40 @@
 body {
-    background-image: url('ban.JPG');
+    background-image: url('bandera\ copy.jpeg');
     background-size: cover;
     height: 100px;
     padding: 10px;
     background-position: center center;
-
-    
     background-repeat: no-repeat;
 
 }
 a:hover {
-    background-color: skyblue;
     border: 1px solid black;
     border-radius: 5px;
+    font-weight: bold;
 }
-.logo {
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
     text-align: center;
-    /*background-color: rgba(255, 255, 255, 0.3);
-    width: 80px;
-    position: center;*/
+    margin: 50px;
+    
 }
-/*
-p {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    text-align: center;
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 30px;
+
 }
 
-footer {
-    position:absolute;
-    bottom: 0;
-    right:0;
-    background-color: navajowhite;
-    text-align: center;
-    padding: 5px;
-}
-footer ul{
-    display: flex;
-    margin: 0;
-    padding: 5px ;
+.figure-caption {
     font-size: 10px;
+    text-align: left;
 }
-li  {
-    padding: 0;}
- 
+.col-md-8 {
+    color: white;
+    text-align: start;
+}
+i {
+    font-family: 'Shadows Into Light Two', cursive;
+}
 footer a:hover {
-    font-size: 10px;
-    background-color: skyblue;
-    border-radius: 0;
+    border: none
 }
-footer a {
-    color: black;
-}
-*/

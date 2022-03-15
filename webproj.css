@@ -1,43 +1,38 @@
-* {
-    box-sizing: border-box;
-}
-/* background phto */
 body {
-    background-image: url('main.JPG');
-    background-size:cover;
+    background-image: url('banner.jpeg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 300px;
     background-attachment: fixed;
-}
-/* header display */
-.upper {
-    display: flex;
-}
-li{
-    list-style: none;
-}
-/* search box*/
-.search {
-    background-color: white;
-    opacity: 1;
-    height: 30px;
-    align-items: center;
     padding: 10px;
-    border-radius: 30px;
-    border: 1px solid;
-    display: flex;
-    margin: 0;
 }
-/* box inside search box */
-input {
-    flex: 1;
-    align-items: center;
-    padding: 5px;
-    font-size: 15px;
-    border: none;
-    outline: none;
+a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
 }
-p {
-    margin: 0;
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    margin: 50px;
+    
+}
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 30px;
+
+}
+
+.figure-caption {
+    font-size: 10px;
+    text-align: left;
+}
+.col-md-8 {
+    color: white;
+    text-align: start;
+}
+i {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+footer a:hover {
+    border: none
 }

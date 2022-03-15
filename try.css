@@ -33,3 +33,6 @@ h2 {
 i {
     font-family: 'Shadows Into Light Two', cursive;
 }
+footer a:hover {
+    border: none
+}

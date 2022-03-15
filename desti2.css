@@ -8,32 +8,33 @@ body {
 
 }
 a:hover {
-    background-color: skyblue;
     border: 1px solid black;
     border-radius: 5px;
+    font-weight: bold;
 }
-footer {
-    position:absolute;
-    bottom: 0;
-    right:0;
-    background-color: navajowhite;
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
     text-align: center;
-    padding: 5px;
+    margin: 50px;
+    
 }
-footer ul{
-    display: flex;
-    margin: 0;
-    padding: 5px ;
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 30px;
+
+}
+
+.figure-caption {
     font-size: 10px;
+    text-align: left;
 }
-li  {
-    padding: 0;}
- 
+.col-md-8 {
+    color: white;
+    text-align: start;
+}
+i {
+    font-family: 'Shadows Into Light Two', cursive;
+}
 footer a:hover {
-    font-size: 10px;
-    background-color: skyblue;
-    border-radius: 0;
-}
-footer a {
-    color: black;
+    border: none
 }
