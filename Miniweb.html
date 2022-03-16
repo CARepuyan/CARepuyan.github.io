@@ -3,32 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=BE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Miniweb.css">
-    <title> Mentaly Beached' </title>
+    <title> Visayas</title>
 </head>
 <body>
-    <div class="container">
-        <div class="upper">
-            <div class="logo">
-                <img src="sunglass.png" alt="photo">
-                <p> Beached' </p>
-            </div>
-            <div class="search">
-                <img src="search.png">
-                <input type="search" id="site-search" name="search">
-            </div>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="margin: 40px">
+    <div class="container-fluid">
+        <p><img src="log2.png"></p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"> HOME </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#"> Gallery </a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Destination </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><p class="dropdown-item"> Flaves of Luzon </p></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="minipa.html"> Sabang Beach, Baler </a></li>
+                <li><a class="dropdown-item" href="minipa.html"> Patar Beach, Bolinao </a></li>
+                <li><a class="dropdown-item" href="minipa.html"> Hunderd Islands, Pangasinan </a></li>
+                <li><a class="dropdown-item" href="desti.html"> Anawangin Cove, Zambales </a></li>
+                <li><a class="dropdown-item" href="desti.html"> Nagsasa Cove, Zambales </a></li>
+                <li><a class="dropdown-item" href="desti.html"> Magalawa Island, Zambales </a></li>
+                <li><a class="dropdown-item" href="minipa2.html"> Kwebang Lampas Beach, Pagbilao</a></li>
+                <li><a class="dropdown-item" href="minipa2.html"> Puerto Galera, Mindoro </a></li>
+                <li><a class="dropdown-item" href="minipa2.html"> Subic Beach, Sorsogon </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><p class="dropdown-item"> Visayas Sneaks </p></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"> Bantayan Island, Cebu </a></li>
+                <li><a class="dropdown-item" href="#"> Panglao Island, Bohol </a></li>
+            </ul>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search an article.." aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
         </div>
-        <article>
-            <img src="main.JPG" alt="photo">
-                <div class="transbox">
-                    <p> Where to next? </p>
-                </div>
-        </article>
-        <aside>
-            
-        </aside>
     </div>
+</nav>
+<br>
+  <article>
+          <!-- mask -->
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center h-100">
+      <h1 class="text-white mb-0"> Where will your feet take you? </h1>
+    </div>
+</div>
+<br>
+<!-- Card Group Holder -->
+<div class="card text-center bg-transparent">
+    <div class="card-header" style="font-size: 20px;">
+      borqacay el nido
+    </div>
+    <div class="card-body">
+        <h3 class="card-title"> boracay el nido </h3>
+        <p class="card-text" style="font-size: 20px;"> Visayas Sneaks </p>
+  <!-- Grid Cards-->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <figure class="figure">
+          <img src="bora.jpeg" class="card-img-top" alt="photo" style="height: 430px;">
+          <figcaption class="figure-caption"> https://www.lonelyplanet.com/  </figcaption>
+        </figure>
+          <div class="card-body">
+            <h5 class="card-title"> Boracay Island, Aklan </h5>
+            <p class="card-text" style="text-align: justify; font-size: 15px;"> With its glorious, powdered-sugar sand, White Beach is the centre of the action in Boracay and the only sight most visitors ever see. Beach locations are defined relative to three former boat stations, where bangkas from Caticlan used to arrive.The stretch between Station 1 and Station 3 is busy and commercial. Most top-end accommodation is on an incredible stretch of beach north of Station 1. The entire beach is paralleled by a sandy pedestrian highway – the White Beach Path – where motorised vehicles are officially banned and shoes informally so.<a href="https://www.jonnymelon.com/things-to-do-in-bantayan-island-cebu/" class="card-link" style="text-align: right; margin: 5px; font-size: 13px; border: none;";> Read More </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <figure class="figure">
+          <img src="elnido.jpeg" class="card-img-top" alt="photo" style="height: 430px;">
+          <figcaption class="figure-caption">  https://www.gettingstamped.com/ </figcaption>
+          </figure>
+          <div class="card-body">
+            <h5 class="card-title"> El Nido, Palawan </h5>
+            <p class="card-text" style="text-align: justify; font-size: 15px;"> El Nido Palawan Philippines has some of the most beautiful scenery we have ever encountered. This cluster of islands is off the tip of the Palawan Island is full of dramatic rock formations and surrounded by bright blue waters. There are a ton of things to do in El Nido so give yourself a week in El Nido if you can. The town itself has enough options for food and the basics for a week-long trip or so. Hotels range from gorgeous over the water beach huts, budget-friendly rooms, or you can even rent an entire beachfront home. <a href="https://www.gettingstamped.com/el-nido-palawan-philippines/" class="card-link" style="text-align: right; margin: 5px; font-size: 13px; border: none;";> Read More </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  
+      <br>
+        <div class="card-footer" style="border: none;"> Get your shoes on! </div>
+    </div>
+    </div>
+    <br>
+  <h2> How to get there? </h2>
+  <br>
+  <!-- rows -->
+  <div class="row g-0 bg-light position-relative" style="margin: 50px;">
+    <div class="col-md-6 mb-md-0 p-md-4">
+        <h5 class="mt-0"><b> Boracay Island from Manila </b></h5>
+        <p><b> via AIR </b> If you’re coming from Manila, the capital of the Philippines located in Luzon, take a 1-hour domestic flight from the Ninoy Aquino International Airport to Caticlan. Flying in from Clark to Boracay via Caticlan is also an option if you’re coming from the Northern part of Luzon or if you want to avoid the traffic in Manila. Airfares from Clark are usually lower than Manila.</p>
+        <p> If you’re coming from the Visayas, there are direct flights to Caticlan from Cebu City’s Mactan International Airport. If you’re coming from Mindanao, there are direct flights from Davao Francisco Bangoy International Airport to Caticlan. From Caticlan Airport, take a 10-15 minute tricycle ride going to Caticlan Jetty Port. </p>
+        <p><b> from Kalibo Airport </b> A flight to Kalibo in Aklan, a more significant island near Boracay, is significantly cheaper than a direct flight to Caticlan. However, you will need to travel for 2 hours from Kalibo Airport to Caticlan Jetty Port.</p>
+        <p> When you land at the Kalibo Airport, you will find a multitude of transportation options that will take you to the Caticlan Jetty Port. Be sure to check whether it’s cost-effective or if it will be more expensive for you. Your land travel options to Caticlan include riding a bus or van. </p>
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0"><b> El Nido from Manila  </b></h5>
+      <p> The fastest way to go to El Nido is to fly directly to Lio Airport from Manila. Currently, AirSwift is the only airline that services the Manila to El Nido route. AirSwift operates up to four direct flights per day from Manila. The travel time is 1 hour and 20 minutes. From the airport, the Town Proper is just 30 minutes away by land travel. </p>
+      <p><b> from Puerto Princesa </b> The most common travel option when going to El Nido is by riding a plane to Puerto Princesa, the capital of Palawan. The flight fares are cheaper compared to a direct flight. The majority of travelers take this route because it’s cost-efficient, although you will need to allocate extra days for your trip just for the transfer to and from El Nido.</p>
+  
+      <p><b>by VAN </b> Vans are the most popular option among travelers for land travel to El Nido because it’s slightly faster than the bus with a travel time of 5-6 hours. The vans only leave once it’s full of passengers. The only stop is halfway for restroom and snack breaks. It’s advisable to book these in advance so they can pick you up straight from the airport. You can also hire a private van if you’re traveling as a group for a more convenient trip. </p>
+      
+      <p><b> by BUS </b> It is a good option if you're traveling with big or multiple luggage because buses have luggage compartments. Compared to vans, buses have more extensive legroom. However, travel time is longer at 6-7 hours because they make stops along the way to pick up and drop off passengers. </p>
+      <p> From the airport, ride a tricycle going to San Jose Terminal where you can board a bus going to El Nido. You have the option to ride an ordinary (non-air-conditioned) and air-conditioned bus. The bus will drop you off at a terminal station in El Nido where you can ride a tricycle going to your resort or hotel. </p>
+    </div>
+  </div>
+  <br>
+  <h2> Where to Find it? </h2>
+  <br>
+  <!-- rows for google maps -->
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31224.60307062081!2d121.90967656368657!3d11.969282604542954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a53c2f324b4ee7%3A0xa738e81e5e6dda36!2sBoracay!5e0!3m2!1sen!2sph!4v1647447331456!5m2!1sen!2sph" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="col-md-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250481.22657898618!2d119.2656568410431!3d11.20470749854952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b65515ef5c9e0f%3A0xfc4e665b599b0455!2sEl%20Nido%2C%20Palawan!5e0!3m2!1sen!2sph!4v1647447368750!5m2!1sen!2sph" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+  </div>
+  <br>
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span> Get connected with us on social networks: </span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="mb-4" style="text-align: center"> Beached' </h6>
+            <p> Is a page where bloggers, digital nomads and well traveled people can share their beach travel experience with first time travelers, travelling with kids or couples. </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4"> Want to share your experience? </h6>
+            <p><a href="form.html" class="text-reset"> Sign up now </a></p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4"> Contact </h6>
+            <p> Manila, Philipines </p>
+            <p> travelspreeph@gmail.com </p>
+            <p> + 01 234 567 88 </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="index.html"> Beached' Mentality </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>    
+
+<!--
+    https://www.lonelyplanet.com/philippines/the-visayas/boracay/attractions/white-beach/a/poi-sig/1450546/357341
+
+    https://www.gettingstamped.com/el-nido-palawan-philippines/
+-->
 </body>
 </html>

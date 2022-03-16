@@ -1,9 +1,9 @@
-body {
-    background-image: url('banner.jpeg');
-    background-size: 100% 100%;
+ .bg-img {
+    background-image: url('banner2.jpeg');
+    padding: 50px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 10px;
+    background-position:fit-page;
+   
 }
 a:hover {
     border: 1px solid black;
