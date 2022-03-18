@@ -1,38 +1,29 @@
  .bg-img {
     background-image: url('banner2.jpeg');
-    padding: 50px;
+   /* padding: 50px;
     background-repeat: no-repeat;
-    background-position:fit-page;
+    background-position:fit-page;*/
+    background-size: cover;
    
 }
+.link{
+    color: black;
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+}
 a:hover {
-    border: 1px solid black;
-    border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+   
 }
-h1 {
-    font-family: 'Shadows Into Light Two', cursive;
+.dropdown-item {
+    font-size: 15px;
+ 
+}
+.img-container {
     text-align: center;
-    margin: 50px;
-    
-}
-h2 {
-    font-family: 'Shadows Into Light Two', cursive;
-    margin: 30px;
-
-}
-
-.figure-caption {
-    font-size: 10px;
-    text-align: left;
-}
-.col-md-8 {
-    color: white;
-    text-align: start;
-}
-i {
-    font-family: 'Shadows Into Light Two', cursive;
-}
-footer a:hover {
-    border: none
+    padding-top: 20vh;
 }
