@@ -8,14 +8,14 @@
 }
 .link{
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 li {
     list-style: none;
 }
 a:hover {
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
    
 }
