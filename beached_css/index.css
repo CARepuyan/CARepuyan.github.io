@@ -1,5 +1,5 @@
  .bg-img {
-    background-image: url('banner2.jpeg');
+    background-image: url('../beached_photos/banner2.jpeg');
    /* padding: 50px;
     background-repeat: no-repeat;
     background-position:fit-page;*/
@@ -9,6 +9,7 @@
 .link{
     color: black;
     text-decoration: none;
+
 }
 li {
     list-style: none;

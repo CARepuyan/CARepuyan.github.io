@@ -1,11 +1,13 @@
 .banner {
-    background-image: url('bandera\ copy.jpeg');
+    background-image: url('../beached_photos/bandera\ copy.jpeg');
     background-size: cover;
-        
     padding: 50px;
     background-position: center center;
     background-repeat: no-repeat;
 
+}
+a {
+    font-weight: bolder;
 }
 a:hover {
     border: 1px solid black;

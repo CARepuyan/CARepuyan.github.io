@@ -12,14 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="../beached_css/form.css">
     <title> Sign Up Form</title>
 </head>
 <body>
         <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light banner">
     <div class="container-fluid">
-        <p><img src="log2.png"></p>
+        <p><img src="../beached_photos/log2.png"></p>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="Content" aria-controls="Content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,15 +65,13 @@
         </div>
     </div>
 </nav>
-<br>
+    <!-- mask -->
+<div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+    <div class="d-flex justify-content-center">
+      <h1 class="text-white" style="font-size: 60px; margin: 20px;"> Share your experince with us! </h1>
+    </div>
+</div>
 <article>
-        <!-- mask -->
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-        <div class="d-flex justify-content-center h-100 mb-3">
-          <h1 class="text-white" style="font-size: 60px; margin: 20px;"> Share your experince with us! </h1>
-        </div>
-      </div>
-    <br>
     <!-- Card Container -->
     <div class="card text-center">
         <div class="card-header">
@@ -81,25 +79,25 @@
         </div>
         <div class="card-body">
           <br>
-          <h5 class="card-title"> Sign Up Form</h5>
+          <h4 class="card-title"> Sign Up Form</h4>
           <br>
-          <form class="row g-3">
+          <div class="row g-3 mb-3">
             <div class="col-md-6">
               <input type="text" class="form-control" placeholder="First name" aria-label="First name">
             </div>
             <div class="col-md-6">
               <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
             </div>
-          </form>
-          <form class="row g-3">
+          </div>
+          <div class="row g-3 mb-3">
             <div class="col-md-6">
                 <input type="email" class="form-control" placeholder="Email" aria-label="Email">
             </div>
             <div class="col-md-6">
                 <input type="password" class="form-control" placeholder="Password" aria-label="Password">
             </div>
-          </form>
-          <form>
+          </div>
+          
             <div class="mb-3">
                <label for="exampleFormControlInput1" class="form-label"> Share your beach journey </label>
                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Tell us where did you go?">
@@ -112,24 +110,25 @@
                 <label for="formFileMultiple" class="form-label"> Upload your beach photos here </label>
                 <input class="form-control" type="file" id="formFileMultiple" multiple>
               </div>
-           </form>
+           
           
           <a href="#" class="btn btn-dark" onclick="alert('We will be reviewing your article. Thank you!')"> SUBMIT </a>
         </div>
+      </form>
         <div class="card-footer text-muted">
           To Travel is To Live!
         </div>
       </div>
       <br>
       <br>
-  
+</article>
 <!-- Footer -->
 <footer class="bg-light text-dark text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <img src="log2.png">
+        <img src="../beached_photos/log2.png">
         <p>
           Is a platform for beach wanderers, bloggers and digital nomads to share their experiences with us as they expolore the wonders of the Philippines. We aim to promote local tourism and help families plan their adventures.
         </p>
@@ -138,7 +137,11 @@
         <h5 class="text-uppercase"> Want to share your experience? </h5>
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="form.html" class="black" target="blank">Sign Up Here</a>
+            <a href="form.html" style="text-decoration: none;" target="blank"> Sign Up Here </a>
+            <br>
+            <a href="index.html" style="text-decoration: none;" > HOME </a>
+            <br>
+            <a href="gallery.html" style="text-decoration: none;"> Gallery </a>
           </li>
         </ul>
       </div>
@@ -153,10 +156,12 @@
     </div>
   </div>
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2022 Copyright: Beached'
   </div>
 </footer>
+
+
 
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
